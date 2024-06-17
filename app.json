@@ -7,6 +7,15 @@
       "output": "static",
       "bundler": "metro"
     },
+    "android": {
+      "permissions": [
+        "android.permission.SET_WALLPAPER",
+        "android.permission.SET_WALLPAPER_HINTS",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.techlism.wallhance"
+    },
     "plugins": [
       [
         "expo-router",
@@ -15,7 +24,15 @@
         }
       ]
     ],
-    "name": "test1",
-    "slug": "test1"
+    "name": "wallhance",
+    "slug": "wallhance",
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "17bdbdc9-47ae-40a7-b359-713165b8a180"
+      }
+    }
   }
 }
