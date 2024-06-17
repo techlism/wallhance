@@ -1,13 +1,23 @@
 {
   "expo": {
-    "scheme": "acme",
+    "scheme": "wallhance",
     "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/logo_512.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
     "orientation": "default",
+    "icon": "./assets/logo_512.png",
     "web": {
       "output": "static",
       "bundler": "metro"
-    },
+    },  
     "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo_512.png",
+        "backgroundColor": "#FFFFFF"
+      },
       "permissions": [
         "android.permission.SET_WALLPAPER",
         "android.permission.SET_WALLPAPER_HINTS",
