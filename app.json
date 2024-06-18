@@ -2,11 +2,6 @@
   "expo": {
     "scheme": "wallhance",
     "userInterfaceStyle": "automatic",
-    "splash": {
-      "image": "./assets/logo_512.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
     "orientation": "default",
     "icon": "./assets/logo_512.png",
     "web": {
